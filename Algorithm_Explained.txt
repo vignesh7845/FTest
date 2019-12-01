@@ -1,0 +1,29 @@
+1.Optional File path
+   In the menu it will ask for path, if you give it will take same path else it take a default path. 
+   If the file exceeds 16 GB it will throw exception.
+   
+2.A new key pair is added    
+    key as 32 character and value as json object. If the exceed the 32 character it will throw exception
+  	If the key is already present it will throw the exception
+  	If you choose the option as read, Once you give the key it will retrieve the value.    
+	If you choose the delete operation, it will delete the entry in file.
+ 
+3. Time To Live property   
+     Everytime you choose  the insert option it will ask Time to Live Property.
+     If add the Time to live for particular key, in that file it add the time with added seconds
+     Every time while invoking the file it will check with the current date and time.. 
+     If its excced it will delete the entry.Update file will be shown.
+     
+4. Appropriate Exceptions are handled .      
+
+5. Thread
+	In order to allow only one process at a time, i have included the synchronized methods.
+	
+All the possible Test Cases are execute 
+
+If you face any issues in running the program.Connect at 745768806
+     
+     
+
+
+   
